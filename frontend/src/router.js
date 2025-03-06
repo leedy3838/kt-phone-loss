@@ -8,8 +8,6 @@ Vue.use(Router);
 import PhonePhoneManagementManager from "./components/listers/PhonePhoneManagementCards"
 import PhonePhoneManagementDetail from "./components/listers/PhonePhoneManagementDetail"
 
-import PhoneStatusViewView from "./components/PhoneStatusViewView"
-import PhoneStatusViewViewDetail from "./components/PhoneStatusViewViewDetail"
 import LossLossManagementManager from "./components/listers/LossLossManagementCards"
 import LossLossManagementDetail from "./components/listers/LossLossManagementDetail"
 
@@ -39,16 +37,6 @@ export default new Router({
                 component: PhonePhoneManagementDetail
             },
 
-            {
-                path: '/phones/phoneStatusViews',
-                name: 'PhoneStatusViewView',
-                component: PhoneStatusViewView
-            },
-            {
-                path: '/phones/phoneStatusViews/:id',
-                name: 'PhoneStatusViewViewDetail',
-                component: PhoneStatusViewViewDetail
-            },
             {
                 path: '/losses/lossManagements',
                 name: 'LossLossManagementManager',
