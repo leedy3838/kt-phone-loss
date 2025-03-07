@@ -31,12 +31,12 @@ spring:
         event-in:
           group: user
 #<<< EDA / Topic Name
-          destination: kt
+          destination: ktphoneloss
 #>>> EDA / Topic Name
           contentType: application/json
         event-out:
 #<<< EDA / Topic Name
-          destination: kt
+          destination: ktphoneloss
 #>>> EDA / Topic Name
           contentType: application/json
 
@@ -75,10 +75,10 @@ spring:
       bindings:
         event-in:
           group: user
-          destination: kt
+          destination: ktphoneloss
           contentType: application/json
         event-out:
-          destination: kt
+          destination: ktphoneloss
           contentType: application/json
 
 

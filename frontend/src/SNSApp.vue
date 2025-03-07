@@ -44,16 +44,6 @@
                     </v-list-item>
                     <v-list-item
                         class="px-2"
-                        key="phoneStatusViews"
-                        to="/phones/phoneStatusViews"
-                        @click="changeUrl()"
-                        color="primary"
-                        style="font-weight:700;"
-                    >
-                        PhoneStatusView
-                    </v-list-item>
-                    <v-list-item
-                        class="px-2"
                         key="lossManagements"
                         to="/losses/lossManagements"
                         @click="changeUrl()"
@@ -180,13 +170,6 @@ export default {
                 description: 'RentalManagement을 관리하는 화면입니다.', 
                 key: 'rentalManagements', 
                 route: '/rentals/rentalManagements',
-                ImageUrl: '',
-            },
-            { 
-                title: 'PhoneStatusView', 
-                description: 'phone status view을 관리하는 화면입니다.', 
-                key: 'phoneStatusViews', 
-                route: '/phones/phoneStatusViews',
                 ImageUrl: '',
             },
             
